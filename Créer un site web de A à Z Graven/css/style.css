@@ -1,0 +1,91 @@
+body {
+     background-color: antiquewhite; 
+    /* background: url("https://static.actu.fr/uploads/2020/04/maxresdefault.jpg"); */
+}
+
+.imgjapon {
+    border-radius: 10px;
+    margin-left: 120px;
+    margin-bottom: 20px;
+}
+
+div#content div {
+    display: inline-block;
+    width:48%;
+    border-radius: 10px;
+    margin: 10px;
+   
+}
+div#content div h1, p {
+    margin-left: 50px;
+    color: burlywood;
+}
+
+div#content div.leftbox {
+ background-color: saddlebrown;
+    vertical-align: top;
+}
+
+
+div#content div.rightbox {
+    background-color: saddlebrown;
+}
+
+iframe {
+    margin-left: 100px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+
+}
+
+.para-contact {
+    color: burlywood;
+    background-color: saddlebrown;
+    border-radius: 5px 5px 5px 5px;
+    width: 550px;
+    font-size: 20px;
+    margin-left: 20px;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+
+.menu-nav ul li.btn{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.menu-nav ul li.btn a {
+    color:burlywood ;
+    background-color:  saddlebrown ;
+    text-decoration: none;
+    padding:  10px 10px 10px 10px;
+    border-radius: 5px;
+}
+
+.menu-nav ul li.btn:hover a {
+    color: saddlebrown;
+    background-color:burlywood ;
+    transition: 0.5s all ;
+}
+
+footer {
+    color:burlywood ;
+    background-color:  saddlebrown ;
+    border-radius: 10px;
+    height: 100px;
+
+}
+
+.footercontent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.footercontent p {
+    margin-top: 40px;
+}
